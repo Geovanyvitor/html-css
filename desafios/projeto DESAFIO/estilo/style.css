@@ -1,1 +1,39 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Francois+One&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Anton & family = Bebas+Neue & display=swap');
+
+:root {
+    --fonte_titulo: 'Anton', sans-serif;;
+    --font_h:;
+    --font_p:;
+    --font_footer:;
+    
+
+}
+    
+
+body{
+    padding: 10px;
+    background-color: var(--cor);
+}
+
+header{
+    background-color: var(--cor);
+    text-align: center;
+}
+
+main{
+    background-color: var(--cor);
+}
+
+footer{
+    border-style: solid;
+    border-color: var(--cor);
+    background-color:;
+    padding: 6px; 
+    text-align: center;
+    
+}
