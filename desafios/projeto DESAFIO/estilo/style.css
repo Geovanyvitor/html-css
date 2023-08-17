@@ -14,15 +14,15 @@
 
 
 :root {
-    --color1:#0F8DBF;
-    --color2:#0A4B73;
-    --color3:#011826;
-    --color4:#59122C;
-    --color5:#F22222;
+    --color1:#F22222;
+    --color2:#0F8DBF;
+    --color3:#0A4B73;
+    --color4:#011826;
+    --color5:#59122C;
 }    
 
 body{
-    background-color: var(--color3);
+    
 }
 
 * {
@@ -32,24 +32,25 @@ body{
 
 header{
     text-align: center;
-    background-image: linear-gradient(to bottom,#0F8DBF ,#0A4B73,#011826);
-    border: solid 12px var(--color2);
+    background-image: linear-gradient(to bottom,);
     border-radius: 10px 10px 0px 0px;
     width: -20px;
     height: -20px;
 }
 
 header > h1 {
-   color: to right #59122C #0F8DBF;
+  
    
 }
 header > p {
-    color: #0F8DBF;
+    padding-top: 5px;
 }
 
 main {
-    background-image: linear-gradient(45deg,#011826,#59122C  );
+    background-image: linear-gradient(45deg,  );
     padding: 17px;
+    text-align: justify;
+    
 }
 
 #titulo {
@@ -60,7 +61,7 @@ main {
 .enfeite {
     text-align: center;
     font-weight: bolder;
-    color: var(--color2);
+    color: ;
 }
 
 .subtitulo {
@@ -75,10 +76,10 @@ header > p {
 }
 
 article {
-    border: solid 2px var(--color2);
+    border: solid 2px var;
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
-    background-color: white;
+    background-color: ;
 } 
 
 h1, h2 {
@@ -94,10 +95,16 @@ p {
 }
 
 main{
-    
+    margin: auto;
     padding-bottom: 10px;
+    max-width: 800px;
+    min-width: 450px;
     
 }
+
+    main img {
+        width: 100%;
+    }
 
 footer{
     padding: 6px; 
